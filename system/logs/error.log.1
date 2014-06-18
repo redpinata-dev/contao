@@ -1,0 +1,100 @@
+[18-Jun-2014 12:31:36 Europe/Berlin] 
+PHP Warning: mysqli::real_connect(): (42000/1049): Unknown database 'contaored' in /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/Database/Mysqli.php on line 50
+#0 [internal function]: __error(2, 'mysqli::real_co...', '/Applications/M...', 50, Array)
+#1 /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/Database/Mysqli.php(50): mysqli->real_connect('localhost', 'root', 'paula', 'contaored', 3306, '')
+#2 /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/Database.php(77): Contao\Database\Mysqli->connect()
+#3 /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/Database.php(161): Contao\Database->__construct(Array)
+#4 [internal function]: Contao\Database::getInstance()
+#5 /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/System.php(122): call_user_func(Array)
+#6 /Applications/MAMP/htdocs/contao/contao/install.php(488): Contao\System->import('Database')
+#7 /Applications/MAMP/htdocs/contao/contao/install.php(183): InstallTool->setUpDatabaseConnection()
+#8 /Applications/MAMP/htdocs/contao/contao/install.php(1148): InstallTool->run()
+#9 {main}
+
+[18-Jun-2014 12:31:36 Europe/Berlin] 
+PHP Warning: Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/contao/system/helper/functions.php:70) in /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/System.php on line 524
+#0 [internal function]: __error(2, 'Cannot modify h...', '/Applications/M...', 524, Array)
+#1 /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/System.php(524): setcookie('BE_PAGE_OFFSET', '0', 0, '/contao', '', false, false)
+#2 /Applications/MAMP/htdocs/contao/system/modules/core/templates/backend/be_install.html5(1367): Contao\System::setCookie('BE_PAGE_OFFSET', 0, 0)
+#3 /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/BaseTemplate.php(92): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/Template.php(244): Contao\BaseTemplate->parse()
+#5 /Applications/MAMP/htdocs/contao/system/modules/core/classes/BackendTemplate.php(37): Contao\Template->parse()
+#6 /Applications/MAMP/htdocs/contao/system/modules/core/classes/BackendTemplate.php(108): Contao\BackendTemplate->parse()
+#7 /Applications/MAMP/htdocs/contao/contao/install.php(858): Contao\BackendTemplate->output()
+#8 /Applications/MAMP/htdocs/contao/contao/install.php(496): InstallTool->outputAndExit()
+#9 /Applications/MAMP/htdocs/contao/contao/install.php(183): InstallTool->setUpDatabaseConnection()
+#10 /Applications/MAMP/htdocs/contao/contao/install.php(1148): InstallTool->run()
+#11 {main}
+
+[18-Jun-2014 12:31:36 Europe/Berlin] 
+PHP Warning: Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/contao/system/helper/functions.php:70) in /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/Template.php on line 261
+#0 [internal function]: __error(2, 'Cannot modify h...', '/Applications/M...', 261, Array)
+#1 /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/Template.php(261): header('Vary: User-Agen...', false)
+#2 /Applications/MAMP/htdocs/contao/system/modules/core/classes/BackendTemplate.php(121): Contao\Template->output()
+#3 /Applications/MAMP/htdocs/contao/contao/install.php(858): Contao\BackendTemplate->output()
+#4 /Applications/MAMP/htdocs/contao/contao/install.php(496): InstallTool->outputAndExit()
+#5 /Applications/MAMP/htdocs/contao/contao/install.php(183): InstallTool->setUpDatabaseConnection()
+#6 /Applications/MAMP/htdocs/contao/contao/install.php(1148): InstallTool->run()
+#7 {main}
+
+[18-Jun-2014 12:31:36 Europe/Berlin] 
+PHP Warning: Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/contao/system/helper/functions.php:70) in /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/Template.php on line 262
+#0 [internal function]: __error(2, 'Cannot modify h...', '/Applications/M...', 262, Array)
+#1 /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/Template.php(262): header('Content-Type: t...')
+#2 /Applications/MAMP/htdocs/contao/system/modules/core/classes/BackendTemplate.php(121): Contao\Template->output()
+#3 /Applications/MAMP/htdocs/contao/contao/install.php(858): Contao\BackendTemplate->output()
+#4 /Applications/MAMP/htdocs/contao/contao/install.php(496): InstallTool->outputAndExit()
+#5 /Applications/MAMP/htdocs/contao/contao/install.php(183): InstallTool->setUpDatabaseConnection()
+#6 /Applications/MAMP/htdocs/contao/contao/install.php(1148): InstallTool->run()
+#7 {main}
+
+[18-Jun-2014 12:31:36 Europe/Berlin] 
+PHP Warning: mysqli::real_connect(): (42000/1049): Unknown database 'contaored' in /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/Database/Mysqli.php on line 50
+#0 [internal function]: __error(2, 'mysqli::real_co...', '/Applications/M...', 50, Array)
+#1 /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/Database/Mysqli.php(50): mysqli->real_connect('localhost', 'root', 'paula', 'contaored', 3306, '')
+#2 /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/Database.php(77): Contao\Database\Mysqli->connect()
+#3 /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/Database.php(161): Contao\Database->__construct(Array)
+#4 [internal function]: Contao\Database::getInstance()
+#5 /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/System.php(122): call_user_func(Array)
+#6 /Applications/MAMP/htdocs/contao/contao/install.php(488): Contao\System->import('Database')
+#7 /Applications/MAMP/htdocs/contao/contao/install.php(183): InstallTool->setUpDatabaseConnection()
+#8 /Applications/MAMP/htdocs/contao/contao/install.php(1148): InstallTool->run()
+#9 {main}
+
+[18-Jun-2014 12:31:36 Europe/Berlin] 
+PHP Warning: Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/contao/system/helper/functions.php:70) in /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/System.php on line 524
+#0 [internal function]: __error(2, 'Cannot modify h...', '/Applications/M...', 524, Array)
+#1 /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/System.php(524): setcookie('BE_PAGE_OFFSET', '0', 0, '/contao', '', false, false)
+#2 /Applications/MAMP/htdocs/contao/system/modules/core/templates/backend/be_install.html5(1367): Contao\System::setCookie('BE_PAGE_OFFSET', 0, 0)
+#3 /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/BaseTemplate.php(92): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/Template.php(244): Contao\BaseTemplate->parse()
+#5 /Applications/MAMP/htdocs/contao/system/modules/core/classes/BackendTemplate.php(37): Contao\Template->parse()
+#6 /Applications/MAMP/htdocs/contao/system/modules/core/classes/BackendTemplate.php(108): Contao\BackendTemplate->parse()
+#7 /Applications/MAMP/htdocs/contao/contao/install.php(858): Contao\BackendTemplate->output()
+#8 /Applications/MAMP/htdocs/contao/contao/install.php(496): InstallTool->outputAndExit()
+#9 /Applications/MAMP/htdocs/contao/contao/install.php(183): InstallTool->setUpDatabaseConnection()
+#10 /Applications/MAMP/htdocs/contao/contao/install.php(1148): InstallTool->run()
+#11 {main}
+
+[18-Jun-2014 12:31:36 Europe/Berlin] 
+PHP Warning: Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/contao/system/helper/functions.php:70) in /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/Template.php on line 261
+#0 [internal function]: __error(2, 'Cannot modify h...', '/Applications/M...', 261, Array)
+#1 /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/Template.php(261): header('Vary: User-Agen...', false)
+#2 /Applications/MAMP/htdocs/contao/system/modules/core/classes/BackendTemplate.php(121): Contao\Template->output()
+#3 /Applications/MAMP/htdocs/contao/contao/install.php(858): Contao\BackendTemplate->output()
+#4 /Applications/MAMP/htdocs/contao/contao/install.php(496): InstallTool->outputAndExit()
+#5 /Applications/MAMP/htdocs/contao/contao/install.php(183): InstallTool->setUpDatabaseConnection()
+#6 /Applications/MAMP/htdocs/contao/contao/install.php(1148): InstallTool->run()
+#7 {main}
+
+[18-Jun-2014 12:31:36 Europe/Berlin] 
+PHP Warning: Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/contao/system/helper/functions.php:70) in /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/Template.php on line 262
+#0 [internal function]: __error(2, 'Cannot modify h...', '/Applications/M...', 262, Array)
+#1 /Applications/MAMP/htdocs/contao/system/modules/core/library/Contao/Template.php(262): header('Content-Type: t...')
+#2 /Applications/MAMP/htdocs/contao/system/modules/core/classes/BackendTemplate.php(121): Contao\Template->output()
+#3 /Applications/MAMP/htdocs/contao/contao/install.php(858): Contao\BackendTemplate->output()
+#4 /Applications/MAMP/htdocs/contao/contao/install.php(496): InstallTool->outputAndExit()
+#5 /Applications/MAMP/htdocs/contao/contao/install.php(183): InstallTool->setUpDatabaseConnection()
+#6 /Applications/MAMP/htdocs/contao/contao/install.php(1148): InstallTool->run()
+#7 {main}
+
