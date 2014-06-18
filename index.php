@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Contao Open Source CMS
+ * Contao Open Source CMS geht nicht
  *
  * Copyright (c) 2005-2014 Leo Feyer
  *
