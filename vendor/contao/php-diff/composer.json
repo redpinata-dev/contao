@@ -1,0 +1,17 @@
+{
+    "name": "contao/php-diff",
+	"type": "library",
+    "description": "A comprehensive library for generating differences between two hashable objects (strings or arrays).",
+	"license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Leo Feyer",
+            "homepage": "https://github.com/leofeyer"
+        }
+    ],
+	"autoload": {
+		"psr-0": {
+		   "Diff": "lib/"
+		}
+	}
+}
